@@ -3,103 +3,154 @@
 
 <head>
 
-  <!--Meta-->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Meta-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!--Links-->
-  <!--CSS-->
-  <link rel="stylesheet" href="css/style.css">
-  <!--Bootstrap-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Links-->
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Boostrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Bootstrap Material Desing-->
+    <link rel="stylesheet"
+        href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+        integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
 
-  <!--Icon Tab-->
-  <link rel="icon" href="https://source.unsplash.com/random/128x128">
+    <!--Page Icon-->
+    <link rel="icon" href="https://source.unsplash.com/random/128x128">
 
-  <!--Title-->
-  <title>PLACEHOLDER</title>
+    <!--Page Title-->
+    <title>PLACEHOLDER_MAINPAGETITLE</title>
 
 </head>
 
 <body>
 
-  <!--Header Start-->
-  <header>
+    <!--Page Start-->
+    <div class="bmd-layout-container bmd-drawer-f-l bmd-drawer-overlay">
 
-    <div class="pos-f-t">
+        <!--Page Header Start-->
+        <header class="bmd-layout-header">
 
-      <nav class="navbar navbar-expand-bg navbar-dark bg-dark">
-        <!--Logo & Menu-->
-        <div id="navbarMenu">
+            <!--Navbar-->
+            <div class="navbar navbar-dark bg-dark">
 
-          <!--Hamburguer Button-->
-          <button class="navbar-toggler" data-toggle="collapse" data-target="#teste">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+                <!--Logo & Menu-->
+                <div id="navbarMenu">
 
-          <!--Logo-->
-          <a class="brand pl-1" href="">
-            <span>PLACEHOLDER_LOGO</span>
-            <!--<img src="https://source.unsplash.com/random/100x50" alt="">-->
-          </a>
+                    <!--Side Menu Button-->
+                    <button class="navbar-toggler" data-toggle="drawer" data-target="#dw-s1">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!--Logo-->
+                    <a class="brand pl-1" href="">
+                        <span>PLACEHOLDER_LOGO</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </header>
+        <!-- Page Header End-->
+
+        <!--Drawer Content Start-->
+        <div id="dw-s1" class="bmd-layout-drawer bg-white">
+
+            <!--Title-->
+            <header>
+                <a class="navbar-brand">PLACEHOLDER_TITLE</a>
+            </header>
+
+            <!--Links-->
+            <ul class="list-group">
+                <a class="list-group-item" href="">PLACEHOLDER_LINK</a>
+                <a class="list-group-item" href="">PLACEHOLDER_LINK</a>
+                <a class="list-group-item" href="">PLACEHOLDER_LINK</a>
+            </ul>
 
         </div>
+        <!--Drawer Content End-->
 
-        <!--Old Toggle Menu Spot-->
+        <!--Main Content Start-->
+        <main class="bmd-layout-content">
 
-        <!--Search Bar-->
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+            <div class="container">
 
-      </nav>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent maximus interdum ex vel viverra.
+                    Fusce porta consequat erat eget placerat. Cras at enim vitae ipsum aliquet vulputate. Proin non
+                    vestibulum ex, quis efficitur enim. Mauris vel leo lacinia, rutrum velit nec, ullamcorper metus. In
+                    volutpat sit amet sapien sed pharetra. Aliquam scelerisque sem eu leo vehicula tristique.
+                    Suspendisse feugiat nisi volutpat sem finibus, sit amet auctor ante malesuada. Maecenas posuere
+                    magna quis elit accumsan, quis mollis justo lobortis. Nam facilisis ullamcorper nunc, at rhoncus
+                    ipsum iaculis vel. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                    curae; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac tristique nunc, eu mattis
+                    velit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                </p>
+
+                <p>
+                    Aliquam eu vehicula urna. Maecenas rutrum tristique tellus, ut ornare purus viverra non. In at
+                    finibus lacus, eu hendrerit lacus. Nam gravida ante eget varius hendrerit. Aenean velit ex, semper a
+                    felis eu, ultrices tempor lectus. Donec dictum commodo pulvinar. Sed magna diam, rutrum et iaculis
+                    at, tempor sed libero.
+                </p>
+
+                <p>
+                    Aliquam interdum quis sem sit amet euismod. Pellentesque efficitur, felis eget ultricies consequat,
+                    odio lacus suscipit nunc, ac vehicula metus erat quis mi. Ut et ipsum pharetra, vulputate enim non,
+                    venenatis diam. Suspendisse massa urna, pretium quis justo nec, fringilla tempor ipsum. Fusce ut
+                    ultricies mauris. Morbi blandit pretium enim nec euismod. Vestibulum aliquam lobortis ornare. Cras
+                    convallis scelerisque ipsum, eu egestas neque. Nam semper, dui sed iaculis tincidunt, turpis urna
+                    maximus orci, non mollis nisi sem at orci. Aliquam sed tincidunt nibh. Etiam sollicitudin, eros sed
+                    commodo malesuada, odio urna tincidunt orci, vitae sagittis urna lectus vitae ipsum. Quisque sed ex
+                    magna. Aliquam vestibulum pulvinar varius. Vestibulum ante ipsum primis in faucibus orci luctus et
+                    ultrices posuere cubilia curae; In ac suscipit nulla, vel tincidunt felis. Maecenas sagittis, orci
+                    quis elementum viverra, lorem risus malesuada quam, eget tempor urna leo sed lacus.
+                </p>
+
+                <p>
+                    Morbi elementum ornare quam, ac finibus ex rhoncus eget. In varius tortor ut leo auctor, placerat
+                    dictum neque dictum. In dolor orci, ultricies vitae risus ut, iaculis fermentum mauris. Nullam
+                    faucibus odio nec sem egestas pharetra eget eu arcu. Curabitur eget magna lacinia ante ultricies
+                    luctus eu sed risus. Etiam tempus lorem a justo elementum, ut lobortis tellus placerat. Praesent
+                    pellentesque, eros a efficitur tempus, tortor est venenatis lacus, non tempor est tortor quis leo.
+                    Fusce eu elit elementum, auctor purus eget, convallis ex. Cras vulputate vehicula ultricies. Donec
+                    tempus nulla a lorem semper tempus. Pellentesque placerat, lectus eget bibendum facilisis, massa
+                    sapien euismod arcu, ut suscipit neque sem a dui. Pellentesque non pellentesque augue. Cras varius
+                    nibh sed tempus euismod. Vivamus sit amet lectus id massa maximus facilisis a eget ex. Nullam
+                    porttitor velit ac ipsum vestibulum, non consequat sapien tempor. Mauris ut ante porta, scelerisque
+                    velit eu, euismod dui.
+                </p>
+
+            </div>
+
+        </main>
+        <!--Main Content End-->
 
     </div>
+    <!--Page End-->
 
-  </header>
-  <!--Header End-->
-
-  <!--Toggle Menu-->
-  <div class="collapse ml-auto mr-auto float-left" id="teste">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link">Disabled</a>
-      </li>
-    </ul>
-  </div>
-
-  <!--<div class="jumbotron jumbotron-fluid bg-white text-center mt-0"></div>-->
-  <div class="container text-center mt-3">
-    <h1 class="display-2">Bem-Vindo</h1>
-    <p class="lead display-5">Aqui é so putaria e sacanagem</p>
-    <button type="button" class="btn btn-primary btn-lg">-> Clica aqui e receba um vírus</button>
-  </div>
-  <!--</div>-->
-
-  <!--Footer Start-->
-  <footer>
-
-  </footer>
-  <!--Footer End-->
-
-  <!--Java/Boot Script-->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+    <!--Scripts-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
+        integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
+        integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script>$(document).ready(function () { $('body').bootstrapMaterialDesign(); });</script>
 
 </body>
 
